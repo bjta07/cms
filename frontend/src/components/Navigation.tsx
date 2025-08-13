@@ -29,7 +29,7 @@ export default function Navigation() {
     <nav className='bg-blue-800 text-white shadow-md'>
       <div className='container mx-auto px-4'>
         {/* Desktop Navigation */}
-        <div className='hidden md:flex space-x-1'>
+        <div className='flex flex-row items-center hidden md:flex space-x-1'>
           {navigationItems.map((item) => {
             const isActive = pathname === item.href
             return (

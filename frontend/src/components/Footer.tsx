@@ -10,10 +10,10 @@ export default function Footer() {
           {/* Información Institucional */}
           <div>
             <h3 className='text-lg font-semibold mb-4'>
-              Información Institucional
+              Información
             </h3>
             <p className='text-gray-300 text-sm'>
-              Portal oficial del sistema de gestión de contenidos institucional.
+              Portal oficial del Colegio de Enfermeras de Bolivia.
             </p>
             <div className='mt-4'>
               <p className='text-gray-300 text-sm'>
@@ -122,11 +122,8 @@ export default function Footer() {
         {/* Línea divisoria y copyright */}
         <div className='border-t border-gray-700 mt-8 pt-8 text-center'>
           <p className='text-gray-400 text-sm'>
-            © {currentYear} Sistema de Gestión de Contenidos. Todos los derechos
+            © {currentYear} Colegio de Enfermeras de Bolivia. Todos los derechos
             reservados.
-          </p>
-          <p className='text-gray-500 text-xs mt-2'>
-            Desarrollado con Next.js y Tailwind CSS
           </p>
         </div>
       </div>
